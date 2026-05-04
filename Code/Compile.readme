@@ -1,0 +1,12 @@
+Let us learn about commands that help to Compile and run programme in command terminal
+
+---->> To compile the programme use : 
+
+C:\Users\Manush-Sir\Documents\Eclipse_Projects\volume\src>gcc filename.c -o filename.exe
+
+pleasse ensure you are on right directory.  
+
+---> To Run the file , please use : 
+
+C:\Users\Manush-Sir\Documents\Eclipse_Projects\volume\src>filename.exe
+
