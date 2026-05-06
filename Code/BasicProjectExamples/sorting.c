@@ -17,14 +17,13 @@ int main()
 {
 float a,b;
 int e,m,y;
-
 printf("\nPlease enter the item number: ");
 scanf("%f",&a);
-printf("\nPlease enter the item price: \n");
+printf("\nPlease enter the item price: ");
 scanf("%f",&b);
-printf("\nPlease enter the date in format dd/mm/yyyy : \n");
-scanf("%d,%d",&e,&e,&m,&m,&y,&y,&y,&y);
-printf("The date entered is : %d%d/%d%d/%d%d%d%d",e,e,m,m,y,y,y,y);
+printf("\nPlease enter the date in format dd/mm/yyyy : ");
+scanf("%d/%d/%d",&e,&m,&y);
+printf("Item Number\t\tItem price\t\tThe date entered\t\t\n%f\t\t$%f\t\t%02d/%02d/%04d\n",a,b,e,m,y);
+/*printf("The date entered is : %02d/%02d/%04d",e,m,y);*//* The 02 an 04 are format specifier to ensure 0*/
 return  0;
-
 }
