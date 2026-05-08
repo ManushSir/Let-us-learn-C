@@ -1,0 +1,4 @@
+This Folder we have programmed array.  
+Arrays are special variables which can hold more than one value under the same variable name, organised with an index. 
+The format is 
+int array [10] =  This defines thay 'array' is of 10 integers.
