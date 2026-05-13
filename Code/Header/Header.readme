@@ -1,1 +1,11 @@
+Instead of writing a large and complex code again and again in different programs, we can create our own header files and include them 
+in our program to use whenever we want. 
+It enhances code functionality and readability. These header files are generally kept inside the source file 
+directory and included using the second syntax to include header files, but we can also install them in the compilers default directory.
+/ for header files in system/default
+// directory
+#include <filename.h>   
 
+// for Header files in same directory as
+// source file
+#include "filename.h"
