@@ -1,0 +1,6 @@
+The do while loop in C is a control structure that ensures the loop body executes at least once, regardless of the condition. Unlike other loops in C programming, the condition is evaluated after the execution of the loop body. 
+
+This makes it particularly useful in scenarios where the action must occur before any condition is checked.
+do {
+    // Code to execute in each iteration
+} while (condition);
