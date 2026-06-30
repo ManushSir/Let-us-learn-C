@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdbool.h>
 int main (void){
-FILE *a_out;
-a_out = fopen("io.txt","w");
+FILE *a_out; /*The database provides name to file*/
+a_out = fopen("io.txt","w");/*This tells programme to make a writable file io.txt*/
 int input = 0;
 while (true)
 {
