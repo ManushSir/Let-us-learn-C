@@ -6,8 +6,5 @@ First thing we will learn is pointers :
 %i	signed integer (decimal, octal, hex input allowed in scanf)	scanf("%i", &a);
 %u	unsigned decimal integer	unsigned int x;
 %o	unsigned octal	prints in base‑8
-%x	unsigned hex (lowercase)	0x1a
-%X	unsigned hex (uppercase)	0x1A
-
-
-
+%x	unsigned hex (lowercase)	a
+%X	unsigned hex (uppercase)	0x1A #
