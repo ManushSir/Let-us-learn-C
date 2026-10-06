@@ -7,7 +7,4 @@ First thing we will learn is pointers :
 %u	unsigned decimal integer	unsigned int x;
 %o	unsigned octal	prints in base‑8
 %x	unsigned hex (lowercase)	0x1a
-%X	unsigned hex (uppercase)	0x1A
-
-
-
+%X	unsigned hex (uppercase)	0x1A #
