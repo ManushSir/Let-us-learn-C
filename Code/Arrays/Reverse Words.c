@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define WORDSIZ 25
+#define WORDSIZe 25
 
 void
 reverse_input_words (int n)
