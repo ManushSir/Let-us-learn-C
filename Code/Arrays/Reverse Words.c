@@ -1,3 +1,4 @@
+/*The programme inputs words and prints them in reverse order.*/
 #include <stdio.h>
 #define WORDSIZe 25
 
